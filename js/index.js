@@ -35,26 +35,32 @@ const appVue = new Vue({
             if(this.isDoors){
                 this.price = this.price  + 3100;
             } else  if(!this.isDoors){
+                (!this.price)
             }
             if(this.isRoof){
                 this.price = this.price  + 3100;
             } else if(!this.isRoof){
+                (!this.price)
             }
             if(this.isFloor){
                 this.price = this.price  + 3100;
             } else if(!this.isFloor){
+                (!this.price)
             }
             if(this.isTrunk){
                 this.price = this.price  + 3100;
             } else if(!this.isTrunk){
+                (!this.price)
             }
             if(this.isArcs){
                 this.price = this.price  + 3100;
             } else if(!this.isArcs){
+                (!this.price)
             }
             if(this.isHood){
                 this.price = this.price  + 3100;
             } else if(!this.isHood){
+                (!this.price)
             }
             if(this.isTorpedo){
                 this.price = this.price  + 3100;
