@@ -65,6 +65,7 @@ const appVue = new Vue({
             if(this.isTorpedo){
                 this.price = this.price  + 3100;
             } else if(!this.isTorpedo){
+                
             }
             return this.price;
         },
@@ -130,7 +131,9 @@ const appVue = new Vue({
                 this.isHood = true;
                 this.isTorpedo = true;
             } else {
-                // this.price = this.price  - 10000;
+                // !!!!!! ИСПРАВИТЬ - ЕСЛИ ОДИН ИЗ ЭЛЕМЕНТОВ = FALSE, ТО isComplexVisible = FALSE
+                // if(this.isDoors = false || this.isRoof = false ||...){
+
                 this.isComplexVisible = false;
                 this.isDoors = false;
                 this.isRoof = false;
